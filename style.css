@@ -1,24 +1,24 @@
   @font-face { 
     font-family: Raleway; 
     font-weight: regular;
-    src: url("Raleway-Regular.ttf"); 
+    src: url("./Raleway-Regular.ttf"); 
   }
   
   @font-face { 
     font-family: Raleway; 
     font-weight: light;
-    src: url("Raleway-Thin.ttf"); 
+    src: url("./Raleway-Thin.ttf"); 
   }
   
   
   @font-face { 
     font-family: Kollektif; 
-    src: url("Kollektif.ttf"); 
+    src: url("./Kollektif.ttf"); 
   }
   
   @font-face { 
     font-family: Poppins; 
-    src: url("Poppins-Regular.ttf"); 
+    src: url("./Poppins-Regular.ttf"); 
   }
 
 * {
