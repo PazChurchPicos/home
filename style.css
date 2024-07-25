@@ -129,7 +129,7 @@ header > img {
   color: black;
 
   font-family: Poppins;
-  font-size: 1.25em;
+  font-size: 1em;
 }
 
 .social {
@@ -156,12 +156,8 @@ header > img {
   color: black;
 }
 
-a:active {
-  background-color: none;
-}
-
-a:hover {
-  background-color: none;
+a {
+  pointet-events: none;
 }
 
 .hide {
