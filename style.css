@@ -162,6 +162,10 @@ a:active {
   background-color: none;
 }
 
+a:hover {
+  background-color: none;
+}
+
 .hide {
   display: block;
 }
