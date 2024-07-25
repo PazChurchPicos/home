@@ -7,18 +7,18 @@
   @font-face { 
     font-family: Raleway; 
     font-weight: light;
-    src: url("Raleway-Thin.ttf"); 
+    src: url("./Raleway-Thin.ttf"); 
   }
   
   
   @font-face { 
     font-family: Kollektif; 
-    src: url("Kollektif.ttf"); 
+    src: url("./Kollektif.ttf"); 
   }
   
   @font-face { 
     font-family: Poppins; 
-    src: url("Poppins-Regular.ttf"); 
+    src: url("./Poppins-Regular.ttf"); 
   }
 
 * {
@@ -141,9 +141,8 @@ header > img {
   flex-direction: row;
   align-items: center;
   justify-content: center;
-
-  margin-top: 2vh;
-  margin-bottom: 2vh;
+  
+  margin-bottom: 5vw;
 }
 
 a {
@@ -151,6 +150,7 @@ a {
   height: 100%;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 a > img {
@@ -165,6 +165,11 @@ a > h2 {
   color: black;
   
   font-size: 1.5em;
+  
+  display: flex;
+  align-items: center;
+  
+  text-align: center;
 }
 
 a {
