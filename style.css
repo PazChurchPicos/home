@@ -148,7 +148,7 @@ header > img {
 
 .social > img {
   filter: invert(90%);
-  width: 10vw;
+  width: 5vw;
 
   margin-right: 1.5em;
   
@@ -156,6 +156,10 @@ header > img {
 
 .social > p {
   color: black;
+}
+
+a:active {
+  background-color: none;
 }
 
 .hide {
