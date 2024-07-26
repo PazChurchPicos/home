@@ -179,6 +179,10 @@ a {
   text-decoration: none;
 }
 
+#diflen {
+  margin-bottom: 0vh;
+}
+
 .hide {
   display: block;
 }
