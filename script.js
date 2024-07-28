@@ -2,7 +2,7 @@
 document.addEventListener("DOMContentLoaded", function() {
   // Array de versículos e referências
 const verses = [
-  { verse: "Tudo posso naquele que me fortalece.", reference: "Filipenses 4:13" },
+      { verse: "Tudo posso naquele que me fortalece.", reference: "Filipenses 4:13" },
   { verse: "O Senhor é meu pastor e nada me faltará.", reference: "Salmos 23:1" },
   { verse: "Eu sou o caminho, a verdade, e a vida. E ninguém vem ao Pai senão por mim.", reference: "João 14:6" },
   { verse: "No mundo tereis aflições, mas tende bom ânimo, eu venci o mundo.", reference: "João 16:33" },
@@ -50,7 +50,6 @@ const verses = [
   { verse: "Quem habita no abrigo do Altíssimo e descansa à sombra do Todo-poderoso pode dizer ao Senhor: Tu és o meu refúgio e a minha fortaleza, o meu Deus, em quem confio.", reference: "Salmos 91:1-2" },
   { verse: "Os que confiam no Senhor serão como o monte de Sião, que não se abala, mas permanece para sempre.", reference: "Salmos 125:1" },
   { verse: "O Senhor é bom, uma fortaleza no dia da angústia, e conhece os que nele confiam.", reference: "Naum 1:7" },
-  
   { verse: "Esforçai-vos, e ele fortalecerá o vosso coração, vós todos que esperais no Senhor.", reference: "Salmos 31:24" },
   { verse: "Elevo os meus olhos para os montes; de onde vem o meu socorro? O meu socorro vem do Senhor, que fez os céus e a terra.", reference: "Salmos 121:1-2" },
   { verse: "Confia no Senhor para sempre, pois o Senhor Deus é uma rocha eterna.", reference: "Isaías 26:4" },
@@ -91,13 +90,17 @@ const verses = [
   { verse: "E já está próximo o fim de todas as coisas; portanto, sede sóbrios e vigiai em oração.", reference: "1 Pedro 4:7" },
   { verse: "Portanto, ide, ensinai todas as nações, batizando-as em nome do Pai, e do Filho, e do Espírito Santo;", reference: "Mateus 28:19" },
   { verse: "Assim, a fé vem pelo ouvir, e o ouvir pela palavra de Deus.", reference: "Romanos 10:17" },
-  { verse: "Bem-aventurados os limpos de coração, porque eles verão a Deus.", reference: "Mateus 5:8" },
+  { verse: "Bem-aventurados os limpos de coração, porque eles verão a Deus.", reference: "Mateus 5:8" }
+
 ];
   // Seleciona um versículo aleatório
   const randomIndex = Math.floor(Math.random() * verses.length);
   const randomVerse = verses[randomIndex];
+    const randomIndex2 = Math.floor(Math.random() * 19);
 
   // Atualiza o conteúdo dos elementos HTML
   document.getElementById("verse").textContent = randomVerse.verse;
   document.getElementById("reference").textContent = randomVerse.reference;
+    document.getElementById("random-image-file").setAttribute("src", `${randomIndex2}.png`);
+    console.log(document.getElementById("random-image-file").getAttribute("src"))
 });
