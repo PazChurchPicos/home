@@ -96,7 +96,7 @@ const verses = [
   // Seleciona um versículo aleatório
   const randomIndex = Math.floor(Math.random() * verses.length);
   const randomVerse = verses[randomIndex];
-    const randomIndex2 = Math.floor(Math.random() * 19);
+    const randomIndex2 = Math.floor(Math.random() * 16);
 
   // Atualiza o conteúdo dos elementos HTML
   document.getElementById("verse").textContent = randomVerse.verse;
